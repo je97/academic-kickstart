@@ -42,6 +42,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/je97/academic-kickstart
-: Jessica Endress is an Undergraduate History Student at Carleton University. Her research interests include Indigenous History and Canadian Art History.
+- Jessica Endress is an Undergraduate History Student at Carleton University. Her research interests include Indigenous History and Canadian Art History.
 :
 ---
