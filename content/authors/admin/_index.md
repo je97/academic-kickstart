@@ -30,7 +30,7 @@ education:
   - course: BA History
     institution: Carleton University
     year: 2020
-  
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -42,6 +42,8 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/je97/academic-kickstart
-- Jessica Endress is an Undergraduate History Student at Carleton University. Her research interests include Indigenous History and Canadian Art History.
-:
+
 ---
+
+Jessica Endress is an Undergraduate History Student at Carleton University. Her research interests include Indigenous History and Canadian Art History.
+
