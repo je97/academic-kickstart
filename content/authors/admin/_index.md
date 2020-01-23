@@ -4,7 +4,7 @@ name: Jessica Endress
 
 # Username (this should match the folder name)
 authors:
-- admin
+- admin 
 
 # Is this the primary user of the site?
 superuser: true
@@ -45,4 +45,6 @@ social:
 
 
 Jessica Endress is an Undergraduate History Student at Carleton University. Her research interests include Indigenous History and Canadian Art History.
+
+---
 
