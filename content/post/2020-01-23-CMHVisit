@@ -4,6 +4,17 @@ title: Canadian Museum of History Visit
 summary: The overwhelming issues of an immense amount of data
 # Visiting the Canadian Museum of History
 
+# optional header image (relative to 'static/img/' folder).
+header:
+  caption: "CMH Visit"
+  image: ""
+tags:
+  - devlog
+  - archaeology
+  - news
+  - cultural-heritage-informatics
+---
+
 Our visit today to the Resource Center, and our tour of some of the museum's collections was incredibly illuminating regarding
 the complexity of the issue of digitizing, and making accessible, an immense amount of data. We were incredibly lucky to be 
 given transparent thoughts on the problems the museum is facing directly from its resource center staff. With an upcoming 
