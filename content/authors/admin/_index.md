@@ -47,3 +47,5 @@ social:
 
 Jessica Endress is an Undergraduate History Student at Carleton University. Her research interests include Indigenous History and Canadian Art History.
 
+---
+
