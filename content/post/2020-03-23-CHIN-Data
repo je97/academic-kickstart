@@ -1,0 +1,66 @@
+--- 
+Date: 2020-03-23
+title: Decoding CHIN Data Standards
+summary: Everything is about abbreviations
+# CHIN Data Standards
+
+# optional header image (relative to 'static/img/' folder).
+header:
+  caption: "CHIN Data Standards"
+  image: ""
+tags:
+  - devlog
+  - archives
+  - history
+  - cultural-heritage-informatics
+  - museums
+  - CHIN
+  - Data Decoding
+---
+    
+I would like to preface that this post will be of the raw paradata notes I took as I was progressing through researching the CHIN data standards. It was rather difficult to navigate through to the correct sections from their website (they could work on their hyperlinks) but I managed to find the Archeological/Historical sections. This is unedited, and there will be another devlog with more polished thoughts coming.
+
+Cataloguing Museum Code from CHIN
+Cataloguing Rules
+As with library cataloguing rules such as AACRII or RDA, museums use cataloguing rules to determine how data are entered in fields. Cataloguing rules dictate the order, syntax, and format the museum uses to record data – word order, punctuation, how to record vague or unknown data, diacritics, rules for recording titles, names of people, places, and organizations, capitalization, date formats, and many other directives that make for consistent documentation.
+Examples of cataloguing rules used by museums include:
+the cataloguing rules within the CHIN Humanities Data Dictionary
+Cataloging Cultural Objects (CCO), (available in English only) is the first comprehensive set of cataloguing rules for museums.
+
+
+https://www.canada.ca/en/heritage-information-network/services/collections-documentation-standards/chin-guide-museum-standards/core-standards-canadian-museums.html#a1a
+
+Confusing as we’re going through the Getty guide… Considering material is a hugely important aspect of the CTSM collection - do we consider these organic materials, building materials or multiple materials?
+
+Should we organise this data as though it’s a museum collection, considering we are digitally publishing it? How do we want to organise our API? And if so, do we consider it a History or Archaeology collection?
+https://www.musees.qc.ca/fr/professionnel/guidesel/doccoll/en/ethno-art-techno/an.htm
+https://www.musees.qc.ca/fr/professionnel/guidesel/doccoll/en/archaeology/an.htm
+
+
+The CHIN site proves hard to navigate. While trying to find the Data Dictionaries you end up at a blurb page that contains no direct hyperlink 
+just kidding all (check the sidebar)
+
+
+Below I have begun to lay out a guide for our metadata, and the terminology we should use in the organization of our dataset
+
+Archeological Context (ACO) = Do we modify current data naming for this? Or add it as unique field?
+https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_terme-term_field_detail.app?rID=1176&dd=sh-hs&fID=2&ac=false&lang=en&qlang=en&fl=GR&tne=ARCHAEOLOGICAL+SITE+FIELDS&tnf=ZONES+RELATIVES+AUX+SITES+ARCH%C3%89OLOGIQUES&pID=1&pID1=1
+
+
+Site Province (ZPR) = https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_terme-term_field_detail.app?rID=1493&dd=sh-hs&fID=2&ac=false&lang=en&qlang=en&fl=GR&tne=ARCHAEOLOGICAL+SITE+FIELDS&tnf=ZONES+RELATIVES+AUX+SITES+ARCH%C3%89OLOGIQUES&pID=1&pID1=1
+
+Cultural Context (CUC) = https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_terme-term_field_detail.app?rID=1367&dd=sh-hs&fID=2&ac=false&lang=en&qlang=en&fl=GR&tne=DESCRIPTIVE+FIELDS&tnf=ZONES+RELATIVES+%C3%80+LA+DESCRIPTION+DE+L%27OBJET&pID=1&pID1=1
+
+Description (DE) = https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_terme-term_field_detail.app?rID=1362&dd=sh-hs&fID=2&ac=false&lang=en&qlang=en&fl=GR&tne=DESCRIPTIVE+FIELDS&tnf=ZONES+RELATIVES+%C3%80+LA+DESCRIPTION+DE+L%27OBJET&pID=1&pID1=1
+
+History of Use (HU) = https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_terme-term_field_detail.app?rID=1368&dd=sh-hs&fID=2&ac=false&lang=en&qlang=en&fl=GR&tne=DESCRIPTIVE+FIELDS&tnf=ZONES+RELATIVES+%C3%80+LA+DESCRIPTION+DE+L%27OBJET&pID=1&pID1=1
+
+Inscription (NTRLT) = https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_terme-term_field_detail.app?rID=1624&dd=sh-hs&fID=2&ac=false&lang=en&qlang=en&fl=GR&tne=DESCRIPTIVE+FIELDS&tnf=ZONES+RELATIVES+%C3%80+LA+DESCRIPTION+DE+L%27OBJET&pID=1&pID1=1
+
+Material (MA) = https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_terme-term_field_detail.app?rID=1030&dd=sh-hs&fID=2&ac=false&lang=en&qlang=en&fl=GR&tne=DESCRIPTIVE+FIELDS&tnf=ZONES+RELATIVES+%C3%80+LA+DESCRIPTION+DE+L%27OBJET&pID=1&pID1=1
+
+Accession Number (AN) = https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_terme-term_field_detail.app?rID=1042&dd=sh-hs&fID=2&ac=false&lang=en&qlang=en&fl=GR&tne=REGISTRATION+FIELDS&tnf=ZONES+RELATIVES+%C3%80+L%27ENREGISTREMENT+DE+L%27OBJET&pID=1&pID1=1
+
+In summary, it seemed more about taxonomy in terms of abbreviations, than it assisted with necessarily what is important to document it, and the 'how to' document correctly. Considering we are dwindling to the end of this project, Emilee has suggested that we may leave our data as it is and go from there.
+
+---
